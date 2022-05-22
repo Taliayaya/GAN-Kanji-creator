@@ -1,0 +1,5 @@
+init:
+	kaggle datasets download -d frammie/kanjieast-asian-characters
+
+deps:
+	pip install -r requirements.txt
